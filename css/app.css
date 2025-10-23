@@ -1,0 +1,27 @@
+body {
+    padding: 4rem;
+    background: hsl(0, 0%, 90%);
+}
+
+/* Ajoutez d'autres styles CSS ici au besoin */
+form {
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1.7rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    gap: 1rem;
+    h1 {
+        grid-column: span 2;
+    }
+
+    .checkbox {
+        grid-column: span 2;
+        gap: 0.2rem;
+    }
+
+    .button {
+        grid-column: span 2;
+    }
+}
